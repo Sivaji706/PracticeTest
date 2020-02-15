@@ -37,6 +37,7 @@ class ViewController: UIViewController, PopUpDelegate {
             for state in stateArray {
                 guard let cityArray = states_citiesArray[state] else { return }
                 print(cityArray)
+                print(state)
             }
             
         }catch{
